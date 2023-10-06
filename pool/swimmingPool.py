@@ -1,4 +1,4 @@
-import circle as c
+from pool import circle as c
 
 
 class SwimmingPool:
