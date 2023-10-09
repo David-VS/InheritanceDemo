@@ -17,6 +17,7 @@ pingu = a.Pinguin("Emperor Pinguin", "Bird")
 
 animals = [snek, pingu]
 for a in animals:
+    print(a.__repr__())
     print(a.make_noise())
 
 

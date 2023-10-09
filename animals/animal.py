@@ -9,6 +9,8 @@ class Animal:
     def make_noise(self):
         pass
 
+    def __repr__(self):
+        return self.name, self.type
 
 @dc.dataclass
 class Frog(Animal):
